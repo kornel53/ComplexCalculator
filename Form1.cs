@@ -21,6 +21,10 @@ namespace ComplexCalculator
         {
             double a, b, c, d;
             (a,b,c,d) = Nums();
+            double Re = a + c;
+            double Im = b + d;
+            textBox5.Text = Convert.ToString(Re);
+            textBox6.Text = Convert.ToString(Im); 
         }
     }
 }
